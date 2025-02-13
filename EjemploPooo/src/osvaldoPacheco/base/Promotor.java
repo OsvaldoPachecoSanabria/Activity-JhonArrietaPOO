@@ -12,4 +12,13 @@ import java.util.List;
  */
 public class Promotor extends Empleado {
     private List<Proyecto> listaDeProyectos;
+    
+    // CONSTRUCTORES
+    public Promotor(){
+        super(); //llama al construcor de Empleado
+    }
+    
+    public Promotor(String n, String a){
+        super(n,a);
+    }
 }

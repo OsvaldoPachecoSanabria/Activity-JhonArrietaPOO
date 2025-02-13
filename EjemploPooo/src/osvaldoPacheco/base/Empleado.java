@@ -13,7 +13,7 @@ import java.util.List;
 public class Empleado {
     /// Propiedades
       protected String  DNI;
-      protected String nombre;
+      protected String nombres;
       protected String apellidos;
       protected String direccion;
       protected String telefono;
@@ -22,4 +22,15 @@ public class Empleado {
       protected Empresa empresa;
       protected List<Proyecto> listaDeProyectos;
       protected List<Tarea> listaDeTareas;
+      
+     //CONSTRUCTORES 
+     
+      public Empleado(){
+          
+      }
+      // constructor con parametros
+      public Empleado(String nombre, String apellido) {
+          this.nombres = nombre;
+          this.apellidos = apellido;
+      }
 }

@@ -18,4 +18,13 @@ public class Version {
      private  String descripcion;
      private  File archivo;
      private  Documento documento;
+     
+     // Constructores
+     public Version(){
+         
+     }
+     public Version(Date fecha, String d){
+             this.fecha = fecha;
+             descripcion = d;
+     }
 }

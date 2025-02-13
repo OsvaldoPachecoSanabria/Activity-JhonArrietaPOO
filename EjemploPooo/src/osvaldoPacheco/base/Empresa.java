@@ -20,6 +20,14 @@ public class Empresa {
   private String direccion;
   private List<Empleado> listaDeEmpleados;
   private List<Proyecto> listaDeProyectos;
-
+  
+  // Contructor por defecto, no tiene parametros Todavia
+   public Empresa() {
+       
+    }
+   public Empresa(String nit, String nombre){
+       this.nit = nit;
+       this.nombre = nombre;
+   }
 }
 

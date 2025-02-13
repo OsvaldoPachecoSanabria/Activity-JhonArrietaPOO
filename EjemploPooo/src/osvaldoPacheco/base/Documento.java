@@ -18,4 +18,16 @@ public class Documento {
      private  String tipo;
      private  Tarea tarea;
      private  List<Version> listaDeVersiones;
+     
+     //CONSTRUCTORES
+     
+    public Documento(){
+        
+    }
+    
+    // CONSTRUCTORES CON PARAMETRO
+    public Documento(String codigo, String desc){
+        this.codigo = codigo;
+        this.descripcion = desc;
+    }
 }

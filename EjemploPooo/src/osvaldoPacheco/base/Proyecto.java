@@ -22,4 +22,14 @@ public class Proyecto {
      private   List<Empleado> listaDeEmpleados;
      private   Promotor empleadoPromotor;
      private   List<Tarea> listaDeTareas;
+     
+     // CONSTRUCTORES
+     public Proyecto(){
+         
+     }
+     
+     public Proyecto(String nombreClave, String denominacion){
+         this.nombreClave = nombreClave;
+         this.denominacion = denominacion;
+     }
 }

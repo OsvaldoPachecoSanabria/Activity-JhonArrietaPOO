@@ -23,4 +23,14 @@ public class Tarea {
       private List<Empleado> listaDeEmpleados;
       private Proyecto proyecto;
       private List<Documento> listaDeDocumentos;
+      
+      //CONSTRUCTOOR
+      public Tarea(){
+          
+      }
+     
+      public Tarea(String d, String t){
+           descripcion = d;
+           tipo = t;
+      }
 }

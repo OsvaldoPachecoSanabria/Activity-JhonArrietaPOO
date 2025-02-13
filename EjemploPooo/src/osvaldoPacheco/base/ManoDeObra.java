@@ -18,4 +18,15 @@ public class ManoDeObra {
      private  Date FechaInicio;
      private  Date FechaFin;
      private  String rol;
+     
+     //CONSTRUCTORES
+     
+    public ManoDeObra(){
+        
+    }
+    
+    public ManoDeObra(Empleado e, Proyecto p){
+        trabajador = e;
+        proyecto = p;
+    }
 }
